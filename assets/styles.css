@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+li {
+  padding: 0 25px;
+}
+
+h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h3 span {
+  color: orange;
+}
+
+/* .flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background: white;
+  margin: 10px;
+  font-size: 22.5px;
+  font-family: 'Roboto', sans-serif;
+  width: 457px;
+  height: 278px;
+  text-align: center;
+}
+
+.flex-container > div img{
+    width: 457px;
+    height: 278px;
+  }
+
+.flex-container > div span {
+      color: orange;
+  } */
+
+/* CARDS */
+
+.card-title {
+  color: orange;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* FOOTER */
+
+.social i {
+  text-align: center;
+}
+
+footer {
+  float: left;
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  color: #111;
+  /* background: orange; */
+}
+
+.fab,
+.fas {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.fab:hover,
+.fas:hover {
+  font-size: 40px;
+  padding: 20px;
+  color: orange;
+}
+
+
+
+/* Portraits */
+main h1 {
+  text-align: center;
+}
